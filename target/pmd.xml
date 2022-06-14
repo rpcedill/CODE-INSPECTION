@@ -2,30 +2,5 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.21.0" timestamp="2022-06-14T15:45:04.060">
-<file name="C:\Users\Mauricio\Desktop\CodeInspection\src\main\java\labcodeinspection\Email.java">
-<violation beginline="15" endline="18" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="Email" method="Email" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-Public method and constructor comments are required
-</violation>
-<violation beginline="23" endline="26" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="Email" method="showInfo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-Public method and constructor comments are required
-</violation>
-<violation beginline="31" endline="45" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="Email" method="setDeparment" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-Public method and constructor comments are required
-</violation>
-<violation beginline="63" endline="67" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-Public method and constructor comments are required
-</violation>
-<violation beginline="65" endline="65" begincolumn="30" endcolumn="58" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
-When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-</violation>
-<violation beginline="65" endline="65" begincolumn="62" endcolumn="89" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
-When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-</violation>
-</file>
-<file name="C:\Users\Mauricio\Desktop\CodeInspection\src\main\java\labcodeinspection\EmailApp.java">
-<violation beginline="12" endline="30" begincolumn="23" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="EmailApp" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-Public method and constructor comments are required
-</violation>
-</file>
+    version="6.21.0" timestamp="2022-06-14T15:54:32.786">
 </pmd>

@@ -1,5 +1,7 @@
 package labcodeinspection;
 
+import java.util.Locale;
+
 public class Email {
 
 	final transient private String mFirstName;
@@ -8,7 +10,7 @@ public class Email {
 	private transient String department;
 	final private transient int defpwrdLngth = 8;
 	private transient String email;
-	/*
+	/**
 	 * Email class's constructor
 	 *
 	*/
@@ -16,7 +18,7 @@ public class Email {
 		this.mFirstName = firstName;
 		this.mLastName = lastName;
 	}
-	/*
+	/**
 	 * showInfo function
 	 *
 	*/
@@ -24,7 +26,7 @@ public class Email {
 		System.out.println("\nFIRST NAME= " + mFirstName + "\nLAST NAME= " + mLastName);
 		System.out.println("DEPARMENT= " + department + "\nEMAIL= " + email + "\nPASSWORD= " + password);
 	}
-	/*
+	/**
 	 * setDeparment function
 	 *
 	*/
@@ -43,7 +45,7 @@ public class Email {
 			break;
 		}
 	}
-	/*
+	/**
 	 * randomPassword function
 	 *
 	*/
@@ -56,13 +58,13 @@ public class Email {
 		}
 		return new String(password);
 	}
-	/*
+	/**
 	 * generateEmail function
 	 *
 	*/
 	public void generateEmail() {
 		this.password = this.randomPassword(this.defpwrdLngth);
-		this.email = this.mFirstName.toLowerCase() + this.mLastName.toLowerCase() + "@" + this.department
+		this.email = this.mFirstName.toLowerCase(Locale.US) + this.mLastName.toLowerCase(Locale.US) + "@" + this.department
 				+ ".espol.edu.ec";
 	}
 }

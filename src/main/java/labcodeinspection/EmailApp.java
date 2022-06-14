@@ -3,9 +3,13 @@ package labcodeinspection;
 import java.util.Scanner;
 
 public class EmailApp {
+	/**
+	 * EmailApp's constructor
+	 *
+	*/
 	private EmailApp() {}
 	
-	/*
+	/**
 	 * EmailApp's main method
 	 *
 	*/
